@@ -11422,6 +11422,30 @@ body:before {
   border-radius: 100rem;
 }
 
+.aiuti {
+  position: absolute; right: 20px; top: 20px; z-index: 1000; color: white; font-size: 13px
+}
+
+.aiuti-mobile {
+  display: none;
+}
+
+@media(max-width: 1024px) {
+  .aiuti {
+     display: none;
+  }
+
+  .aiuti-mobile {
+    display: block;
+    color: white;
+    margin-top: 30px;
+    font-size: 12px;
+    text-decoration: underline;
+
+  }
+}
+
+
 @media (min-width: 992px) {
   .social-icons {
     position: absolute;
